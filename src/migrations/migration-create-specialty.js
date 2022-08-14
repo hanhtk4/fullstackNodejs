@@ -13,15 +13,19 @@ module.exports = {
                 primaryKey: true,
                 type: Sequelize.INTEGER
             },
+            image: {
+                type: Sequelize.STRING
+            },
+            name: {
+                type: Sequelize.STRING
+            },
             description: {
                 type: Sequelize.TEXT
             },
             maxNumber: {
                 type: Sequelize.INTEGER
             },
-            image: {
-                type: Sequelize.STRING
-            },
+
 
 
             createdAt: {

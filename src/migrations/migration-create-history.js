@@ -15,6 +15,9 @@ module.exports = {
             doctorid: {
                 type: Sequelize.INTEGER
             },
+            file: {
+                type: Sequelize.TEXT
+            },
             description: {
                 type: Sequelize.TEXT
             },
